@@ -1,0 +1,14 @@
+.ab{color: red}
+div{width: 100px;height: 100px;margin: 0 auto  5px;background: #000;
+transition: width 2s;
+-moz-transition: width 2s;	/* Firefox 4 */
+-webkit-transition: width 2s;	/* Safari 和 Chrome */
+-o-transition: width 2s;	/* Opera */
+color: #fff
+}
+div:hover{width: 300px;}
+#div1{background: #00f}
+#div2{background: #f4c}
+#div3{display: none;}
+
+.box{width: 300px;height: 300px;position: absolute;top: 100px;bottom: 100px;left:0px; right:0;z-index: 9;}
